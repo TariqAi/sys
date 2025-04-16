@@ -5,7 +5,9 @@ import json
 
 load_dotenv()
 
-openai_client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+openai_api_key = st.secrets["OPENAI_API_KEY"]
+
+openai_client = OpenAI(api_key=openai_api_key)
 
 # Load job questions from JSON file
 with open('db.json', 'r', encoding='utf-8') as f:
