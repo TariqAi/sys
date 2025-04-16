@@ -1,0 +1,35 @@
+[
+    {
+      "job_title": "Machine Learning Engineer",
+      "job_description": "Design and develop machine learning models to solve real-world problems. Implement algorithms for classification, regression, and clustering using Python and Scikit-learn."
+    },
+    {
+      "job_title": "Deep Learning Engineer",
+      "job_description": "Build and train deep neural networks for image recognition, object detection, and time-series forecasting using TensorFlow and PyTorch."
+    },
+    {
+      "job_title": "NLP Engineer",
+      "job_description": "Work on Natural Language Processing projects including text classification, sentiment analysis, and named entity recognition. Use tools like spaCy, Hugging Face Transformers, and NLTK."
+    },
+    {
+      "job_title": "AI Research Scientist",
+      "job_description": "Conduct research in deep learning and NLP, publish findings, and implement experimental models for large-scale datasets."
+    },
+    {
+      "job_title": "Junior Data Scientist",
+      "job_description": "Assist in developing supervised and unsupervised learning models. Perform data preprocessing and model evaluation using real-world datasets."
+    },
+    {
+      "job_title": "Computer Vision Engineer",
+      "job_description": "Apply deep learning techniques to image and video data. Build models for object detection, segmentation, and face recognition using CNNs."
+    },
+    {
+      "job_title": "Senior Data Scientist",
+      "job_description": "Analyze and process large text corpora. Build NLP pipelines for document classification, topic modeling, and information extraction."
+    },
+    {
+      "job_title": "Machine Learning Engineer",
+      "job_description": "Develop end-to-end ML pipelines, tune models for performance, and deploy predictive systems in production environments."
+    }
+  ]
+  
