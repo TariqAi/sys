@@ -5,12 +5,8 @@ import json
 
 load_dotenv()
 
-try:
-    openai_client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
-except KeyError:
-    st.error("OpenAI API key not found in Streamlit secrets")
-    st.stop()
-    
+openai_client = OpenAI(api_key=st.secrets["OPENAI_API_KEY"])
+
 # Load job questions from JSON file
 with open('db.json', 'r', encoding='utf-8') as f:
     job_data = json.load(f)
